@@ -1,0 +1,6 @@
+[x,y,z]=sph2cart(fi,pi/2-tet,psi);
+mesh(x,y,z)
+plot3(x,y,z)
+x=psi.*sin(tet).*cos(fi);
+y=psi.*sin(tet).*sin(fi);
+z=psi.*cos(tet);
